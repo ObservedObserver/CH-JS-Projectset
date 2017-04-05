@@ -1,0 +1,155 @@
+body{
+  margin: 0;
+  display: flex;
+  padding: 2% 16% 2% 16%;
+}
+.bg{
+  position: fixed;
+  left:0;right:0;top:0;bottom:0;
+  background-image: url("image/bg2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  filter: blur(10px);
+  z-index: -10;
+}
+.block{
+  background-color: red;
+}
+.leftPlayer{
+  flex-basis: 160px;
+  flex-grow: 1;
+  display: flex;
+  flex-flow: column;
+  margin: 4px;
+  margin-right:0px;
+  z-index: 2;
+}
+.rightPlayer{
+  flex-basis: 320px;
+  flex-grow: 2;
+  margin: 4px;
+  margin-left:0px;
+  display: flex;
+  flex-flow: column;
+  z-index: 1;
+}
+.leftA{
+  flex-basis: 100px;
+  flex-grow: 2;
+}
+.ui.vertical.inverted.segment.leftA{
+  box-shadow: 0px 4px 4px 4px rgba(0,0,0,0.25);
+  border-radius: 2px 2px 0px 0px;
+  /*margin: 1px 1px 0px 1px;*/
+  /*background-color: rgba(227, 76, 76, 0.88);*/
+  padding-left: 10%;
+  padding-right: 10%;
+}
+.leftB{
+  flex-basis: 200px;
+  flex-grow: 4;
+}
+.ui.vertical.inverted.segment.leftB{
+  box-shadow: 0px 4px 4px 4px rgba(0,0,0,0.25);
+  /*margin: 1px 1px 0px 1px;*/
+  /*background-color: rgba(246, 218, 70, 0.88);*/
+  overflow: auto;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 5%;
+}
+.leftC{
+  flex-basis: 50px;
+  flex-grow: 1;
+}
+.ui.vertical.inverted.segment.leftC{
+  box-shadow: 0px 4px 4px 4px rgba(0,0,0,0.25);
+  border-radius: 0px 0px 2px 2px;
+  /*margin: 1px 1px 0px 1px;*/
+  /*background-color: rgba(27, 213, 246, 0.88);*/
+}
+.rightA{
+  flex-basis: 300px;
+  flex-grow: 6;
+  position: relative;
+}
+
+.ui.vertical.inverted.segment.rightA{
+  box-shadow: 0px 4px 4px 4px rgba(0,0,0,0.25);
+  border-radius: 0px 2px 0px 0px;
+  /*margin: 1px 1px 0px 1px;*/
+  background-color: rgba(255, 255, 255, 0.2);
+  overflow: auto;
+}
+.rightB{
+  flex-basis: 50px;
+  flex-grow: 1;
+  position: relative;
+}
+
+.ui.vertical.inverted.segment.rightB{
+  box-shadow: 0px 4px 4px 4px rgba(0,0,0,0.25);
+  border-radius: 0px 0px 2px 0px;
+  /*margin: 1px 1px 0px 1px;*/
+  background-color: rgba(255, 255, 255, 0.5);
+  overflow: hidden;
+}
+.chRed{
+  background-color: #f16666 !important;
+}
+.chYellow{
+  background-color: #f7c969 !important;
+}
+.chTeal{
+  background-color:  #63d4f9 !important;
+}
+/*.three.wide.column.chTeal{
+  height:100%;
+}*/
+.chBlue{
+  background-color: #72a4bf !important;
+}
+/*.three.wide.column.chBlue{
+  height:100%;
+}*/
+.chLanse{
+  background-color: #16c2d2 !important;
+}
+.fullH{
+  height:100%;
+}
+::-webkit-scrollbar{
+    width: 4px;
+    height: 4px;
+    background-color: rgba(0,0,0,0);
+}
+/*定义滚动条的轨道，内阴影及圆角*/
+::-webkit-scrollbar-track{
+    border-radius: 2px;
+    background-color: rgba(0,0,0,0);
+}
+/*定义滑块，内阴影及圆角*/
+::-webkit-scrollbar-thumb{
+    /*width: 10px;*/
+    height: 20px;
+    border-radius: 2px;
+    -webkit-box-shadow: inset 0 0 2px rgba(0,0,0,0.2);
+    background-color: rgba(255,255,255,0.5);
+}
+.ui.vertical.fluid.basic.menu{
+  background-color: rgba(0,0,0,0) !important;
+}
+/*.item{
+  background-color: rgba(0,0,0,0) !important;
+}*/
+.ui.vertical.inverted.segment.rightA > .ui.vertical.basic.segment
+{
+  background-color: rgba(0,0,0,0) !important;
+}
+.trans{
+  background-color: rgba(0,0,0,0) !important;
+}
+#controler{
+  padding-left: 5%;
+  padding-right:5%;
+}

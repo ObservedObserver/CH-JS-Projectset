@@ -1,0 +1,41 @@
+{
+  "number":"6",
+  "list":[
+    {
+      "name":"RADWIMPS (ラッドウィンプス) - 夢灯籠 ",
+      "singer":"RADWIMPS",
+      "set":"君の名は。(你的名字。)",
+      "src":"./MP3/init.mp3"
+    },
+    {
+      "name":"やなぎなぎ (Yanaginagi) - クロスロード (十字路口)",
+      "singer":"やなぎなぎ",
+      "set":"トコハナ (常花)",
+      "src":"./MP3/やなぎなぎ (Yanaginagi) - クロスロード (十字路口) .mp3"
+    },
+    {
+      "name":"雨宮天 (あまみや そら) - 奏(かなで)",
+      "singer":"雨宮天 (あまみや そら)",
+      "set":"「一週間フレンズ。」",
+      "src":"MP3/雨宮天 (あまみや そら) - 奏(かなで) (《一周的朋友。》TV动画片尾曲).mp3"
+    },
+    {
+      "name":"RADWIMPS (ラッドウィンプス) - スパークル (火花)",
+      "singer":"RADWIMPS (ラッドウィンプス)",
+      "set":"君の名は。",
+      "src":"MP3/RADWIMPS (ラッドウィンプス) - スパークル (火花).mp3"
+    },
+    {
+      "name":"μ's (缪斯) - No brand girls",
+      "singer":"μ's (缪斯)",
+      "set":"ラブライブ!",
+      "src":"MP3/μ's (缪斯) - No brand girls.mp3"
+    },
+    {
+      "name":"Printemps (プランタン) - sweet&sweet holiday",
+      "singer":"μ's (缪斯)",
+      "set":"ラブライブ!",
+      "src":"MP3/Printemps (プランタン) - sweet&sweet holiday.mp3"
+    }
+  ]
+}

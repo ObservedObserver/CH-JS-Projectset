@@ -1,0 +1,97 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/Semantic/semantic.css" media="screen" title="no title" charset="utf-8">
+    <link rel="stylesheet" href="css/player.css" media="screen" title="no title" charset="utf-8">
+    <script src="script/jquery.js"></script>
+    <script src="css/Semantic/semantic.js">
+
+    </script>
+  </head>
+  <body>
+    <audio id="player" src="MP3/init.mp3" autoplay></audio>
+    <div class="bg"></div>
+    <div class="leftPlayer">
+      <div class="ui  vertical inverted segment leftA chRed">
+        <div class="ui vertical inverted fluid text trans menu">
+          <div class="item">
+            <h4 class="ui inverted header">当前音乐：</h2>
+            <p></p>
+          </div>
+          <div class="item">
+          </div>
+        </div>
+
+      </div>
+      <div class="ui vertical inverted center aligned segment leftB chYellow">
+        <h3 class="ui inverted header">Chen Hao's<br> Boring Music Player.</h3>
+        <p>
+          ver 1.0<br>
+          developed in 2017/3/27<br>
+          <br>
+          This area is designed for .lrc
+        </p>
+      </div>
+      <div class="ui vertical inverted center aligned segment leftC chTeal">
+          <button class="ui circular blue icon button">
+            <i class="Qq icon"></i>
+          </button>
+          <button class="ui circular green icon button">
+            <i class="Github Alternate icon"></i>
+          </button>
+          <button class="ui circular yellow icon button">
+            <i class="Weibo icon"></i>
+          </button>
+          <button class="ui circular google plus icon button">
+            <i class="google plus icon"></i>
+          </button>
+      </div>
+    </div>
+    <div class="rightPlayer">
+      <div class="ui vertical inverted segment rightA">
+
+        <div class="ui vertical basic segment">
+          <div class="ui grid">
+            <div class="eight wide column">
+              <h4 class="ui header">&nbsp;&nbsp;&nbsp;&nbsp;歌 曲</h4>
+            </div>
+            <div class="three wide column">
+              <h4 class="ui header">歌 手</h4>
+            </div>
+            <div class="three wide column">
+              <h4 class="ui header">专 辑</h4>
+            </div>
+          </div>
+        </div>
+
+        <div class="ui vertical inverted fluid basic menu">
+        </div>
+
+      </div>
+
+
+      <div class="ui vertical inverted segment rightB">
+        <div class="ui grid">
+
+          <div class="twelve wide column fullH" id="controler">
+                <div class="ui tiny red progress" id="progresser">
+                  <div class="bar"></div>
+                  <div class="label"><span></span> / <span></span></div>
+                </div>
+          </div>
+
+          <div class="two wide column chBlue fullH" id="playButton">
+            <i class="Pause inverted big link icon"></i>
+          </div>
+
+          <div class="two wide column chTeal fullH" id="likeButton">
+            <i class="Heart inverted big link red icon"></i>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+    <script src="script/player.js"></script>
+  </body>
+</html>
