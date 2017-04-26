@@ -1,0 +1,32 @@
+body{
+  margin: 0;
+  background-image: url("../images/star_banner.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.danmu-box{
+  position: absolute;
+  overflow: hidden;
+}
+.words{
+  position: absolute;
+  font-size: 28px;
+  color:white;
+  font-weight: 600;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+#danmuList_Container{
+  overflow: auto;
+  height:100%;
+}
+#playButton{
+  position: absolute;
+  transform: translate(-50%,-50%);
+  top:50%;
+  left:50%;
+}
+#mainBox{
+  margin-top: 2%;
+}
